@@ -17,7 +17,7 @@ The primary goal of this repository is to identify and document technology solut
 - **Growth:** The chosen technologies should support significant growth without the need for frequent repurchasing, replacement, or overhauling. They should be seen as key initial investments that enable the company to expand with minimal resources allocated to maintenance and upgrades.
 
 ## Background
-See Background.md for more details!
+See **[`Background.md`](Background.md)** for more details!
 
 ## Navigation
 
