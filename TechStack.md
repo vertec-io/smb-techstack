@@ -9,35 +9,36 @@
 - **Cloud Storage** - AWS?
 
 #### Manufacturing
-- **PLCs**        - WAGO
-- **Pneumatics**  - Festo
+  - **PLCs**        - WAGO
+  - **Pneumatics**  - Festo
 
 #### Engineering
-- **Workstations** - HP ZTower, 4-8 core processor, NVIDIA RTX GPU
+  - **Workstations** - HP ZTower, 4-8 core processor, NVIDIA RTX GPU
 
 ### Software
 
 
 #### IT
-- **Virtualization Server OS** - ProxMox Virtualization OS 
-- **Virtual Machine OS** - Windows 10 / Ubuntu
-- **Virtual Machine Servers** - Ubuntu Server / Windows Server 2019
-- **CyberSecurity**- PfSense?
-- **Desktops** - Windows 10
+  - **Virtualization Server OS** - ProxMox Virtualization OS 
+  - **Virtual Machine OS** - Windows 10 / Ubuntu
+  - **Virtual Machine Servers** - Ubuntu Server / Windows Server 2019
+  - **CyberSecurity**- PfSense?
+  **Desktops** - Windows 10
+  - **Cloud Storage** - AWS?
 
 #### Operations & Manufacturing
-- **Manufacturing Execution System (MES)** - Tulip (www.tulip.co)
-- **Enterprise Resource Planning (ERP)** - ???
+  - **Manufacturing Execution System (MES)** - Tulip (www.tulip.co)
+  - **Enterprise Resource Planning (ERP)** - ???
 
 
 #### Engineering
-- **CAD Software** SolidWorks or SolidEdge
+  - **CAD Software** SolidWorks or SolidEdge
 
-## Vendors
+## Key Vendor Corporate Accounts
 
-- McMaster Carr
-- Galco
-- Digi-Key
-- Amazon Business
-- Ebay
+  - McMaster Carr
+  - Galco
+  - Digi-Key
+  - Amazon Business
+  - Ebay
  
