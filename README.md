@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The smb-techstack repository is dedicated to providing a comprehensive and optimal technology stack for small to medium-sized businesses (SMBs) operating in the US. This effort targets companies ranging from 1 to 200 people and revenue from \$0 to $##. The repository serves as a ready-to-use template architecture that can be quickly implemented by SMBs so that they can focus on their core mission. By eliminating the need for significant resource allocation towards technology infrastructure, this template empowers SMBs to grow quickly, confidently, and efficiently.
+The smb-techstack repository is dedicated to providing a comprehensive and optimal technology stack for small to medium-sized businesses (SMBs) operating in the US. This effort targets companies ranging from 1 to 200 people and revenue from \$0 to \$\#\#. The repository serves as a ready-to-use template architecture that can be quickly implemented by SMBs so that they can focus on their core mission. By eliminating the need for significant resource allocation towards technology infrastructure, this template empowers SMBs to grow quickly, confidently, and efficiently.
 
 ## Purpose
 
