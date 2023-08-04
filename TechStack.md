@@ -2,11 +2,11 @@
 
 ### Hardware
 #### IT
-- **Switches**      - Cisco Catalyst 1000 Series
-- **Servers**       - HPE Proliant Series 
-- **Routers**       - Dedicated secure appliance (pfsense)?
-- **Desktops**      - Thin Clients? 
-- **Cloud Storage** - AWS?
+   - **Switches**      - Cisco Catalyst 1000 Series
+   - **Servers**       - HPE Proliant Series 
+   - **Routers**       - Dedicated secure appliance (pfsense)?
+   - **Desktops**      - Thin Clients? 
+   - **Cloud Storage** - AWS?
 
 #### Manufacturing
   - **PLCs**        - WAGO
