@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The smb-techstack repository is dedicated to providing a comprehensive and optimal technology stack for small to medium-sized businesses (SMBs) operating in the US. This effort targets companies ranging from 1 to 200 people and revenue from \$0 to \$##. The repository serves as a ready-to-use template architecture that can be quickly implemented by SMBs so that they can focus on their core mission. By eliminating the need for significant resource allocation towards technology infrastructure, this template empowers SMBs to grow quickly, confidently, and efficiently.
+The smb-techstack repository is dedicated to providing a comprehensive and optimal technology stack for small to medium-sized businesses (SMBs) operating in the US. This effort targets companies ranging from 1 to 200 people and revenue from \$0 to $##. The repository serves as a ready-to-use template architecture that can be quickly implemented by SMBs so that they can focus on their core mission. By eliminating the need for significant resource allocation towards technology infrastructure, this template empowers SMBs to grow quickly, confidently, and efficiently.
 
 ## Purpose
 
@@ -21,8 +21,27 @@ See Background.md for more details!
 
 ## Navigation
 
-This repository is organized into various sections to provide an intuitive way to explore the tech stack and the justification for each item. (Todo: create a folder structure and update this section with navigation details.)
+Certainly! Based on the current structure of the repository, here's an updated Navigation section for the `README.md` file that provides a clear explanation of how the repo is laid out:
 
+---
+
+## Navigation
+
+This repository is organized into several key sections to help users understand and explore the SMB Tech Stack. Here's a guide to navigating the content:
+
+- **[`Background.md`](Background.md):** Provides the context, inspiration, and philosophy behind the SMB Tech Stack, including the connection to Kent C. Dodds' "Epic Stack."
+
+- **[`TechStack.md`](TechStack.md):** Outlines the core technologies and solutions that make up the SMB Tech Stack, serving as a central reference for the entire architecture.
+
+- **[`checklists`](checklists):** Contains checklists and procedural guides to assist in the implementation and management of the tech stack.
+
+- **[`guides`](guides):** Features detailed guides and instructions for specific technologies and hardware, including subfolders for specialized topics
+
+- **[`solutions`](solutions):** Includes individual files that provide detailed justifications and insights into specific technology solutions
+
+- **[`LICENSE`](LICENSE):** Contains the licensing information for the repository.
+
+Feel free to explore the sections that interest you, and refer to the specific guides and solutions for in-depth information on implementing and managing the SMB Tech Stack.
 ## Contribution
 
 We welcome contributions from other SMB owners, tech experts, and anyone interested in enhancing the technology landscape for small to medium-sized businesses. Feel free to submit pull requests or open issues to discuss potential improvements.
