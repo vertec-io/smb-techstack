@@ -1,4 +1,4 @@
-# Small-to-Medium Business (SMB) Technology Stack
+# Small-to-Medium Business (SMB) Technology Stack 
 
 ## Introduction
 
