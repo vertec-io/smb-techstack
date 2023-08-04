@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The smb-techstack repository is dedicated to providing a comprehensive and optimal technology stack for small to medium-sized businesses (SMBs) operating in the US. This effort targets companies ranging from 1 to 200 people and revenue from $0 to $##. The repository serves as a ready-to-use template architecture that can be quickly implemented by SMBs so that they can focus on their core mission. By eliminating the need for significant resource allocation towards technology infrastructure, this template empowers SMBs to grow quickly, confidently, and efficiently.
+The smb-techstack repository is dedicated to providing a comprehensive and optimal technology stack for small to medium-sized businesses (SMBs) operating in the US. This effort targets companies ranging from 1 to 200 people and revenue from \$0 to \$##. The repository serves as a ready-to-use template architecture that can be quickly implemented by SMBs so that they can focus on their core mission. By eliminating the need for significant resource allocation towards technology infrastructure, this template empowers SMBs to grow quickly, confidently, and efficiently.
 
 ## Purpose
 
@@ -16,6 +16,9 @@ The primary goal of this repository is to identify and document technology solut
 
 - **Growth:** The chosen technologies should support significant growth without the need for frequent repurchasing, replacement, or overhauling. They should be seen as key initial investments that enable the company to expand with minimal resources allocated to maintenance and upgrades.
 
+## Background
+See Background.md for more details!
+
 ## Navigation
 
 This repository is organized into various sections to provide an intuitive way to explore the tech stack and the justification for each item. (Todo: create a folder structure and update this section with navigation details.)
@@ -27,7 +30,3 @@ We welcome contributions from other SMB owners, tech experts, and anyone interes
 ## License
 
 See LICENSE
-
----
-
-Feel free to modify or add any additional information that aligns with your vision for the repository. If you'd like me to assist with anything else, just let me know!
