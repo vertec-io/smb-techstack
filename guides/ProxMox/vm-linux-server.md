@@ -7,7 +7,7 @@ password: xxxxx
 IP Address: 192.168.xxx.xxx
 
 ## On first install of any Ubuntu Server, install updates:
-
+These commands are best done by SSH into the vm
 ```
 sudo apt update && sudo apt dist-upgrade
 ```
