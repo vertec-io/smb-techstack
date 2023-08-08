@@ -2,6 +2,9 @@
 
 ## Full Tutorial: https://www.youtube.com/watch?v=J29onrRqE_I&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo&index=9 
 
+## Create a new container
+If a container doesn't exist to be converted to a template, first create a container. See [`ct-linux-container.md`](ct-linux-container.md)
+
 ## Update the LXC
 
 First make sure everything is up to date. Run:
@@ -9,27 +12,27 @@ First make sure everything is up to date. Run:
 ```bash
 sudo apt update && sudo apt dist-upgrade
 ```
-## Configure SSH
+## Remove the SSH host keys
+Before converting the container to a template, make sure to remove the SSH host keys on this container to prevent connection issues due to conflicting ssh keys once containers are cloned from this template:
 
-go into the etc/ssh dir and show files and remove ssh_host keys
-
-```
+```bash
 cd /etc/ssh
-ls
-sudo rm ssh_host_*
+ls #shows the host keys. You should see some that have the ssh_host_ prefix
+sudo rm ssh_host_* #this deletes the host keys
+ls #verify the host keys have been deleted
 ```
 
 ## Configure the machine ID
+The machine-id will also need to be cleared out in the template so a new one is generated for each new container cloned from this template.
 
-go into the machine id dir and delete the contents of the machine ID file
+Go into the machine id dir and delete the contents of the machine ID file
 **NOTE:** Simply deleting this file does not work.
 
 ```bash
 cat /etc/machine-id
 sudo truncate -s 0 /etc/machine-id
 ```
-
-Now check for symbolic link to the machine ID file
+Now check for symbolic link to the machine ID file to make sure this is still working.
 
 ```bash
 ls -l /var/lib/dbus/machine-id
@@ -58,11 +61,13 @@ Remove any unused/orphaned packages
 ```bash
 sudo apt autoremove
 ```
+This template is now comlete, and new containers can be created by cloning it.
 
-#After Cloning the Template to a New LXC
+# Configuring Template Clones
+Once the template has been cloned into a new virtualized container, a couple of configurations need to be completed.
+
 ## Regenerate host SSH keys
-
-cloud-init should generate ssh keys for the host automatically, but if it doesn't SSH remote connections will fail. In this case, you can generate them manually with 
+LXC containers don't support cloud-init, so on the creation of a new container from a template, the SSH host keys will need to be regenerated manually:
 
 ```bash
 sudo dpkg-reconfigure openssh-server
@@ -75,4 +80,23 @@ Update the hostname to match the name of the VM in ProxMox
 sudo nano /etc/hostname #edit the file contents to match the correct hostname
 sudo nano /etc/hosts #edit the file content line for the ip address assigned to the template hostname to match the VM name
 sudo reboot
+```
+
+## Users
+
+## Adding Users to Container:
+
+To add new users to this container, run:
+
+```bash
+adduser <username>
+```
+
+Go through all of the prompts to create the new user.
+
+## Adding user to Sudo group
+In order to run sudo / admin commands on the new user, add them to the sudo group with:
+
+```bash
+usermod -aG sudo <username>
 ```

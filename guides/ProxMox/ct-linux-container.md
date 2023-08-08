@@ -7,6 +7,8 @@
 
 The tutorial can be found: https://www.youtube.com/watch?v=aGfPjdUM2cM&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo&index=8 
 
+Follow the tutorial in the link above, then continue here for further configuration and troubleshooting:
+
 ## Allowing SSH Traffic
 
 ### Enable SSH service on startup
@@ -34,7 +36,7 @@ In addition to , you may need to allow SSH traffic through the firewall. In Prox
 - **Comment**: You can enter something like "Allow SSH" for your reference.
 - **Log Level**: Choose nolog unless you want to log every SSH connection attempt.
 
-### NOTE: if connecting via PuTTY, saved sessions can become corrupt. Just enter the connection details manually instead.
+### NOTE: if connecting via PuTTY, saved sessions can become corrupt. Just enter the connection details manually instead. You can try deleting saved configs and recreating them.
 
 ## Adding Users to Container:
 
@@ -53,25 +55,5 @@ In order to run sudo / admin commands on the new user, add them to the sudo grou
 usermod -aG sudo <username>
 ```
 
-## Clean out the Apt Package database
-
-```bash
-sudo apt clean
-sudo apt autoremove
-```
-
-## Remove the SSH host keys
-```
-cd /etc/ssh
-ls #shows the host keys. You should see some that have the ssh_host_ prefix
-sudo rm ssh_host_* #this deletes the host keys
-ls #verify the host keys have been deleted
-```
-
-## Remove the machine-id
-
-```bash 
-cat /etc/machine-id
-sudo truncate -s 0 /etc/machine-id
-
-```
+## Converting to template
+To convert the container to a template see [`ct-container-templates.md`](ct-container-templates.md)
