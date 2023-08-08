@@ -36,6 +36,9 @@ pfSense is a widely acclaimed open-source firewall and router platform based on 
 - **Intuitive Web Interface:** pfSense's web-based interface is user-friendly, making configuration and management accessible even for those without specialized networking knowledge.
 - **Comprehensive Documentation:** Extensive documentation and tutorials are available, aiding in the deployment and ongoing management of the platform.
 
+## Recommended Deployment
+The recommended deployment is to use a NetGate dedicated appliance with pfsense pre-installed to get things going quickly. A Netgate 6100 appliance being the recommended system to get the business off to a great start with plenty of room to grow.
+
 ## Conclusion
 
 pfSense offers a compelling combination of cost-effectiveness, flexibility, security, performance, reliability, and ease of use. For SMBs seeking a robust firewall and router solution without the high costs associated with commercial products, pfSense is a standout choice.

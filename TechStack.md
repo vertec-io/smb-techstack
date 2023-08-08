@@ -4,7 +4,7 @@
 #### IT
    - **Switches**      - Cisco Catalyst 1000 Series
    - **Servers**       - HPE Proliant Series 
-   - **Routers**       - Dedicated secure appliance (pfsense)?
+   - **Routers**       - Netgate 6100 with pfSense
    - **Desktops**      - Thin Clients? 
    - **Cloud Storage** - AWS?
 
@@ -22,8 +22,8 @@
   - **Virtualization Server OS** - ProxMox Virtualization OS 
   - **Virtual Machine OS** - Windows 10 / Ubuntu
   - **Virtual Machine Servers** - Ubuntu Server / Windows Server 2019
-  - **CyberSecurity**- PfSense?
-  **Desktops** - Windows 10
+  - **CyberSecurity/Firewall/Router**- PfSense
+  - **Desktops** - Windows 10
   - **Cloud Storage** - AWS?
 
 #### Operations & Manufacturing

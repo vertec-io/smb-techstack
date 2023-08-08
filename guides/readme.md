@@ -1,3 +1,3 @@
 ## Guides
 
-This directory includes guides and tutorials for rgw various technology solutions
+This directory includes guides and tutorials for various technology solutions

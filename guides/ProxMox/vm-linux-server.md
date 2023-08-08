@@ -32,7 +32,7 @@ sudo systemctl start qemu-guest-agent.service
 This will fail if the QEMU Guest Agent option is disabled on the VM in proxmox options. Enable it in Proxmox, and reboot the VM. 
 
 ```
-sudo poweroff
+sudo **poweroff**
 ```
 Once it powers off, restart the vm in proxmox, or boot cycle the server
 
@@ -158,6 +158,7 @@ Then, paste the following content into the file, making sure to update the ExecS
 
      [Service]
      Type=simple
+     Environment="HOME=/home/<home environment>"
      ExecStart=/path/to/start-x11vnc.sh
 
      [Install]
